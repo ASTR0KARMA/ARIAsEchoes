@@ -91,3 +91,4 @@ memorypack_generated/
 # Rider
 .idea/**
 *.sln.iml
+*.vsidx
