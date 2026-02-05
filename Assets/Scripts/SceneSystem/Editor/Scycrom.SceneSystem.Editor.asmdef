@@ -1,0 +1,18 @@
+{
+    "name": "Scycrom.SceneSystem.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:47f21b5249ab5a54e826b65b678176dd"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1acc05d59e1254188a155e6468973e88
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Scripts/Information/InformationParameter/EnumInformationParameter.cs
+  uploadId: 846972

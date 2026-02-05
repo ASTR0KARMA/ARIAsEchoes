@@ -1,0 +1,31 @@
+{
+    "name": "Noa.NoaDebugger.Runtime",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:69b03d039a3f2429c9746b8e2c07f450",
+        "GUID:bb76d65c4983b4967bd12024c4f17262",
+        "GUID:fbe31b771b6484a559615292347e275d",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.universal",
+            "expression": "",
+            "define": "USE_PIPELINE_URP"
+        },
+        {
+            "name": "com.unity.modules.xr",
+            "expression": "",
+            "define": "USE_XR"
+        }
+    ],
+    "noEngineReferences": false
+}

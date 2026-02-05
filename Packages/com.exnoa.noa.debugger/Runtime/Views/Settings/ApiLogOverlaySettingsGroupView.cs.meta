@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 529fb8747b2c3014699619ef06771be4
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Views/Settings/ApiLogOverlaySettingsGroupView.cs
+  uploadId: 846972

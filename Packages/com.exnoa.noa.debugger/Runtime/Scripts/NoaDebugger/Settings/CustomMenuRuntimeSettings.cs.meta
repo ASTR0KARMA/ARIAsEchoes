@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 84f53c91887df6043b89a9e170fe4d7d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Scripts/NoaDebugger/Settings/CustomMenuRuntimeSettings.cs
+  uploadId: 846972

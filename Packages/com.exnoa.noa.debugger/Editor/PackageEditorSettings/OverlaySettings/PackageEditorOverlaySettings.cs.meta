@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 499a6d548b59c4d9792ae8493436cac9
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Editor/PackageEditorSettings/OverlaySettings/PackageEditorOverlaySettings.cs
+  uploadId: 846972

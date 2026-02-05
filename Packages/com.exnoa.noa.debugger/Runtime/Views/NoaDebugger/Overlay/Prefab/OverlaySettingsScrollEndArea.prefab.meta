@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8297d6bf636164e6bb02c497a06e49b6
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Views/NoaDebugger/Overlay/Prefab/OverlaySettingsScrollEndArea.prefab
+  uploadId: 846972

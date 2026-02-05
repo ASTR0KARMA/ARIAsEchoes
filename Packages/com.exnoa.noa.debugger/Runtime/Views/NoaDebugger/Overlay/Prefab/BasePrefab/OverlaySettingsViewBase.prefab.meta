@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a0a2154f99ae547c89e985518814cfc4
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Views/NoaDebugger/Overlay/Prefab/BasePrefab/OverlaySettingsViewBase.prefab
+  uploadId: 846972

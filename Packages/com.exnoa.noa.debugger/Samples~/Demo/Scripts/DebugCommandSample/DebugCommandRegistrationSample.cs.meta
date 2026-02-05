@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: fabf5462e83848247bc926de1e113be5
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Samples~/Demo/Scripts/DebugCommandSample/DebugCommandRegistrationSample.cs
+  uploadId: 846972

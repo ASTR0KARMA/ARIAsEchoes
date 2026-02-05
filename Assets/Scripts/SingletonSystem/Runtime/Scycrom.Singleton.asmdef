@@ -1,0 +1,14 @@
+{
+    "name": "Scycrom.Singleton",
+    "rootNamespace": "",
+    "references": ["GUID:a546b14102446834ead947133b56b389"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: be3953f8811349d290d984f151c885df
+timeCreated: 1739439029
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Plugins/WebGL/JSBridge.jslib
+  uploadId: 846972

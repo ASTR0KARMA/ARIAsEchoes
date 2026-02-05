@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7da70744bbba04271b133f9e7facb131
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Views/Information/Prefabs/DeviceInformationView.prefab
+  uploadId: 846972

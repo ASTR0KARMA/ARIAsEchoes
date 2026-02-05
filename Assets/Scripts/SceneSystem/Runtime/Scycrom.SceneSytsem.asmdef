@@ -1,0 +1,20 @@
+{
+    "name": "Scycrom.SceneSystem",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3d05fe89740932e4996735914db2c1d2",
+        "GUID:89ccbd296aab8f44bbf99547ab2d2ef9",
+        "GUID:c407b7bc61e77694fa14736192d07fb0",
+        "GUID:a6a958e40a0ae0e4cb96b4a35a7f3d03",
+        "GUID:a546b14102446834ead947133b56b389"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

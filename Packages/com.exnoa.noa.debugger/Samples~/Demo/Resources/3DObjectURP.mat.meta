@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cc5b27bfc45529d49ac08d5abda69064
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Samples~/Demo/Resources/3DObjectURP.mat
+  uploadId: 846972

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8189b9bce16f34ba1b0d215a71707a6a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Views/LogView/Prefabs/LogOverlayViewBase.prefab
+  uploadId: 846972

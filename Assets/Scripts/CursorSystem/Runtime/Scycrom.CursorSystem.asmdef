@@ -1,0 +1,4 @@
+{
+	"name": "Scycrom.CursorSystem",
+	"references":[ "GUID:3d05fe89740932e4996735914db2c1d2", "GUID:a546b14102446834ead947133b56b389" ]
+}

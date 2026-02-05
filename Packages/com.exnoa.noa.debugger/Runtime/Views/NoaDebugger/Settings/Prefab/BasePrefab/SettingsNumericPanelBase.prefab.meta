@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8f1f51b62c94b4d0da6b0e9f6ad6f061
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Views/NoaDebugger/Settings/Prefab/BasePrefab/SettingsNumericPanelBase.prefab
+  uploadId: 846972

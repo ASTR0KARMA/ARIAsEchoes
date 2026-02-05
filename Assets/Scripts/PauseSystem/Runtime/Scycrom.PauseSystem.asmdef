@@ -1,0 +1,22 @@
+{
+    "name": "Scycrom.PauseSystem",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3d05fe89740932e4996735914db2c1d2",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:47f21b5249ab5a54e826b65b678176dd",
+        "GUID:268f2973a92586c4699f6eefae6914da",
+        "GUID:bb53fb33e2005274b9702f9d47736163",
+        "GUID:a6a958e40a0ae0e4cb96b4a35a7f3d03",
+        "GUID:a546b14102446834ead947133b56b389"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

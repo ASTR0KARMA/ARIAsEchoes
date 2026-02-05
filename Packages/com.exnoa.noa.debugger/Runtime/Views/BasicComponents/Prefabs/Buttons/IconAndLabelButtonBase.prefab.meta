@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 60c4ebdc962384c4ea3649702d725095
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Views/BasicComponents/Prefabs/Buttons/IconAndLabelButtonBase.prefab
+  uploadId: 846972

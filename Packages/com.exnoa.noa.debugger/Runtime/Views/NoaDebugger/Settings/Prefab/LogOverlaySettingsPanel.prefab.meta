@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bfbd8cc369e5e4d449033cf2f68e691a
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Views/NoaDebugger/Settings/Prefab/LogOverlaySettingsPanel.prefab
+  uploadId: 846972

@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d187acdef4294dcba5d07c187bbc4f33
+timeCreated: 1740074850
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Scripts/Input/ShortcutAction.cs
+  uploadId: 846972

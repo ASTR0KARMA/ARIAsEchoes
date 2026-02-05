@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7013e622f117945e49e03cf472217497
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Views/BasicComponents/Prefabs/InputFields/DraggableInput.prefab
+  uploadId: 846972

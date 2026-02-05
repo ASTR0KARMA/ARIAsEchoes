@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4f946e17732ff4f4a9f8d9d222089fd1
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Samples~/Noa.NoaDebugger.Samples.asmdef
+  uploadId: 846972

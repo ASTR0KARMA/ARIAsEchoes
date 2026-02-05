@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 0f6b39db7b58d4f8a83b0d75f35cfdf8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Views/LogView/Prefabs/Components/Footer.prefab
+  uploadId: 846972

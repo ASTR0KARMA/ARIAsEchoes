@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b23ef78e8a08246d98e6a431ab89719c
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Views/Profiler/Prefabs/Overlay/FpsOverlayView.prefab
+  uploadId: 846972

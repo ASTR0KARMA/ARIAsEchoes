@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2f09e02c878f747cea92424972ff3285
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Scripts/Public/Callbacks/NoaApiLogDownloadCallbacks.cs
+  uploadId: 846972

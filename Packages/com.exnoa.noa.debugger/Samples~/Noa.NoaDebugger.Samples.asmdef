@@ -1,0 +1,16 @@
+{
+    "name": "Noa.NoaDebugger.Samples",
+    "rootNamespace": "",
+    "references": [
+        "GUID:28d6563d65cb14323a3647f3564c0b7b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

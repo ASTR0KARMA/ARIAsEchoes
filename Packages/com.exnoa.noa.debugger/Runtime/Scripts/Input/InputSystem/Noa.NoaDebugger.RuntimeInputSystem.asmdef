@@ -1,0 +1,26 @@
+{
+    "name": "Noa.NoaDebugger.RuntimeInputSystem",
+    "rootNamespace": "",
+    "references": [
+        "GUID:69b03d039a3f2429c9746b8e2c07f450",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "!ENABLE_LEGACY_INPUT_MANAGER",
+        "ENABLE_INPUT_SYSTEM"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "1.0.0",
+            "define": "INPUT_SYSTEM_PACKAGE_AVAILABLE"
+        }
+    ],
+    "noEngineReferences": false
+}

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bb6d21d1f3f2a4d75a38e94ebd46995a
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Views/NoaDebugger/Settings/SettingsPanel/SettingsPanelBase.cs
+  uploadId: 846972

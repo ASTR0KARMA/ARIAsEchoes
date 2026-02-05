@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: bb76d65c4983b4967bd12024c4f17262
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 272715
+  packageName: NOA Debugger for Unity
+  packageVersion: 1.7.0
+  assetPath: Packages/com.exnoa.noa.debugger/Runtime/Scripts/Input/LegacyInputManager/Noa.NoaDebugger.RuntimeInputManager.asmdef
+  uploadId: 846972
