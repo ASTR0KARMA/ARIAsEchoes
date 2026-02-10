@@ -1,0 +1,323 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbeb6ea8d9424b8a9c04df84fe7ad456, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Noa.NoaDebugger.Runtime::NoaDebugger.NoaDebuggerSettings
+  _startButtonPosition: 5
+  _startButtonScale: 1
+  _startButtonMovementType: 0
+  _saveStartButtonPosition: 1
+  _toolStartButtonAlpha: 0.6
+  _backgroundAlpha: 0.7
+  _floatingWindowAlpha: 0.7
+  _controllerBackgroundAlpha: 0.7
+  _noaDebuggerCanvasScale: 1
+  _noaDebuggerCanvasSortOrder: 1000
+  _isUIReversePortrait: 1
+  _isShowSideMenuCloseButton: 1
+  _menuList:
+  - Name: Information
+    Enabled: 1
+    SortNo: 0
+  - Name: Profiler
+    Enabled: 1
+    SortNo: 1
+  - Name: Snapshot
+    Enabled: 1
+    SortNo: 2
+  - Name: ConsoleLog
+    Enabled: 1
+    SortNo: 3
+  - Name: APILog
+    Enabled: 1
+    SortNo: 4
+  - Name: Hierarchy
+    Enabled: 1
+    SortNo: 5
+  - Name: Command
+    Enabled: 1
+    SortNo: 6
+  _autoCreateEventSystem: 1
+  _errorNotificationType: 0
+  _autoInitialize: 1
+  _customMenuFolderPath: Assets/NoaDebuggerCustomMenu/Resources
+  _customMenuList: []
+  _saveInformationValue: 0
+  _consoleLogCount: 999
+  _apiLogCount: 999
+  _isCustomFontSettingsEnabled: 0
+  _fontAsset: {fileID: 0}
+  _fontMaterial: {fileID: 0}
+  _fontSizeRate: 1
+  _hierarchyLevels: 3
+  _commandFormatLandscape: 0
+  _commandFormatPortrait: 1
+  _overlayBackgroundOpacity: 0.6
+  _appliesOverlaySafeArea: 1
+  _overlayPadding: {x: 0, y: 0}
+  _profilerOverlayPosition: 2
+  _profilerOverlayScale: 1
+  _profilerOverlayAxis: 1
+  _profilerOverlayFpsSettings:
+    Enabled: 1
+    TextType: 1
+    Graph: 1
+  _profilerOverlayMemorySettings:
+    Enabled: 1
+    TextType: 1
+    Graph: 1
+  _profilerOverlayRenderingSettings:
+    Enabled: 1
+    TextType: 1
+    Graph: 1
+  _consoleLogOverlayPosition: 0
+  _consoleLogOverlayFontSize: 1
+  _consoleLogOverlayMaximumLogCount: 10
+  _consoleLogOverlayMinimumOpacity: 0.5
+  _consoleLogOverlayActiveDuration: 3
+  _consoleLogOverlayShowTimestamp: 1
+  _consoleLogOverlayShowMessageLogs: 0
+  _consoleLogOverlayShowWarningLogs: 0
+  _consoleLogOverlayShowErrorLogs: 0
+  _apiLogOverlayPosition: 0
+  _apiLogOverlayFontSize: 1
+  _apiLogOverlayMaximumLogCount: 10
+  _apiLogOverlayMinimumOpacity: 0.5
+  _apiLogOverlayActiveDuration: 3
+  _apiLogOverlayShowTimestamp: 1
+  _apiLogOverlayShowMessageLogs: 0
+  _apiLogOverlayShowErrorLogs: 0
+  _appliesUIElementSafeArea: 1
+  _uiElementPadding: {x: 0, y: 0}
+  _appliesGameSpeedChange: 1
+  _gameSpeedIncrement: 1
+  _maxGameSpeed: 3
+  _enableAllShortcuts: 0
+  _shortcutActionsOnInputManager:
+  - actionType: 0
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 15
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 1
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 2
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 3
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 4
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 5
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 6
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 7
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 03000000
+        key: -1
+  - actionType: 8
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 9
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 16
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 10
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 11
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 12
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 13
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 14
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  - actionType: 17
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: -1
+  _shortcutActions:
+  - actionType: 0
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 18
+  - actionType: 15
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 29
+  - actionType: 1
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 20
+  - actionType: 2
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 33
+  - actionType: 3
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 19
+  - actionType: 4
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 38
+  - actionType: 5
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 32
+  - actionType: 6
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 17
+  - actionType: 7
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 03000000
+        key: 1
+  - actionType: 8
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 24
+  - actionType: 9
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 25
+  - actionType: 16
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 27
+  - actionType: 10
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 26
+  - actionType: 11
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 41
+  - actionType: 12
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 42
+  - actionType: 13
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 43
+  - actionType: 14
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 44
+  - actionType: 17
+    combination:
+      isEnabled: 1
+      keyboard:
+        modifiers: 0100000003000000
+        key: 45
+  _autoSave: 1

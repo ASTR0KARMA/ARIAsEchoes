@@ -10,6 +10,7 @@ public class NarrationSystem : MonoBehaviour
 
     [SerializeField] private InputActionReference inputAction;
     [SerializeField] private float typewriterSpeed = 0.03f;
+    [SerializeField] private float cameraLerpSpeed = 3f;
     [SerializeField] private NarrationUI narrationUI;
 
     private Queue<NarrationPart> narrationQueue;
@@ -19,6 +20,7 @@ public class NarrationSystem : MonoBehaviour
     private bool skipRequested;
     private string currentFullText;
     private Coroutine typewriterCoroutine;
+    private Coroutine cameraLerpCoroutine;
     private Action onNarrationComplete;
 
     private void Awake()
@@ -29,11 +31,6 @@ public class NarrationSystem : MonoBehaviour
             return;
         }
         Instance = this;
-    }
-
-    private void Start()
-    {
-        NarrationSystem.Instance.StartNarration(Narration.Aubergiste);
     }
 
     private void OnEnable()
@@ -82,7 +79,39 @@ public class NarrationSystem : MonoBehaviour
         currentTextIndex = 0;
         narrationUI.SetSpeakerName(currentPart.SpeakerName);
         narrationUI.HideChoices();
+        LerpCameraToTarget(currentPart.TargetTransform);
         DisplayCurrentText();
+    }
+
+    private void LerpCameraToTarget(Transform target)
+    {
+        if (cameraLerpCoroutine != null)
+        {
+            StopCoroutine(cameraLerpCoroutine);
+            cameraLerpCoroutine = null;
+        }
+
+        if (target == null)
+            return;
+
+        cameraLerpCoroutine = StartCoroutine(CameraLerpCoroutine(target));
+    }
+
+    private IEnumerator CameraLerpCoroutine(Transform target)
+    {
+        Transform cam = Camera.main.transform;
+
+        while (Vector3.Distance(cam.position, target.position) > 0.01f || Quaternion.Angle(cam.rotation, target.rotation) > 0.1f)
+        {
+            float t = cameraLerpSpeed * Time.deltaTime;
+            cam.position = Vector3.Lerp(cam.position, target.position, t);
+            cam.rotation = Quaternion.Slerp(cam.rotation, target.rotation, t);
+            yield return null;
+        }
+
+        cam.position = target.position;
+        cam.rotation = target.rotation;
+        cameraLerpCoroutine = null;
     }
 
     private void DisplayCurrentText()
@@ -175,6 +204,12 @@ public class NarrationSystem : MonoBehaviour
 
     private void EndNarration()
     {
+        if (cameraLerpCoroutine != null)
+        {
+            StopCoroutine(cameraLerpCoroutine);
+            cameraLerpCoroutine = null;
+        }
+
         narrationUI.Hide();
         currentPart = null;
         onNarrationComplete?.Invoke();

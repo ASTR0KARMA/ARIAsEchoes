@@ -1,79 +1,63 @@
 using System.Collections.Generic;
 
-public static class Narration
+public static partial class Narration
 {
-    public static NarrationPart[] IntroVillage = new NarrationPart[]
+    public static NarrationPart[] Act1_Reveil = new NarrationPart[]
     {
-        new NarrationPart("???", new[] { "Hé toi ! Réveille-toi !" }),
-        new NarrationPart("Garde", new[] { "Tu ne peux pas dormir ici.", "Le village n'est pas un refuge pour vagabonds." }),
-        new NarrationPart("Garde", new[] { "Allez, debout. Le chef veut te voir." })
-    };
+        new NarrationPart("???", new[] { "Sujet conscient. Signes vitaux en stabilisation." }),
 
-    public static NarrationPart[] ChefVillage = new NarrationPart[]
-    {
-        new NarrationPart("Chef Aldric", new[] { "Ainsi c'est toi l'étranger qu'on a trouvé près de la forêt.", "Tu as de la chance d'être encore en vie." }),
-        new NarrationPart("Chef Aldric", new[] { "Les créatures qui rôdent là-bas n'épargnent personne." }),
-        new NarrationPart("Chef Aldric",
-            new[] { "Dis-moi, que faisais-tu dans cette forêt maudite ?" },
-            "Je ne m'en souviens pas...",
-            new NarrationPart[]
-            {
-                new NarrationPart("Chef Aldric", new[] { "Amnésie ? Intéressant...", "Ou peut-être mens-tu." }),
-                new NarrationPart("Chef Aldric", new[] { "Peu importe. Tu me seras utile." })
-            },
-            "Ce ne sont pas vos affaires.",
-            new NarrationPart[]
-            {
-                new NarrationPart("Chef Aldric", new[] { "Ho ho ! Du caractère !", "J'aime ça." }),
-                new NarrationPart("Chef Aldric", new[] { "Mais ici, tout est mes affaires.", "Retiens-le bien." })
-            }),
-        new NarrationPart("Chef Aldric", new[] { "En attendant, tu peux rester au village.", "Parle à Mira à l'auberge, elle te trouvera un lit." })
-    };
+        new NarrationPart("Ivan", new[] {
+            "Désignation : 1V4N. Tu peux m'appeler Ivan.",
+            "Est-ce que tu te souviens de ton nom ?"
+        }),
 
-    public static NarrationPart[] Aubergiste = new NarrationPart[]
-    {
-        new NarrationPart("Mira", new[] { "Bienvenue à l'Auberge du Sanglier Doré !", "Aldric m'a prévenue de ton arrivée." }),
-        new NarrationPart("Mira", new[] { "Ta chambre est en haut, première porte à gauche.", "Le repas est servi au coucher du soleil." }),
-        new NarrationPart("Mira",
-            new[] { "Tu as l'air épuisé. Un conseil ?" },
-            "Oui, je vous écoute.",
-            new NarrationPart[]
-            {
-                new NarrationPart("Mira", new[] { "Évite la forêt à l'est.", "Ceux qui y entrent... ne reviennent pas tous." }),
-                new NarrationPart("Mira", new[] { "Et si tu croises un homme en cape noire, fuis.", "Ne pose pas de questions, fuis." })
-            },
-            "Non merci, je me débrouillerai.",
-            new NarrationPart[]
-            {
-                new NarrationPart("Mira", new[] { "Comme tu voudras.", "Les têtus ne font pas long feu par ici..." }),
-                new NarrationPart("Mira", new[] { "Mais je suppose que tu l'apprendras par toi-même." })
+        new NarrationPart("???", new[] {
+            "Je... je ne sais pas.",
+            "Ma voix me semble étrangère. Mécanique, et pourtant... vivante."
+        }),
+
+        new NarrationPart("Ivan", new[] {
+            "Dégradation mémorielle liée au cryosommeil prolongé. C'est documenté.",
+            "J'ai localisé des structures qui pourraient aider. D'anciens piliers de données.",
+            "Ils contiennent des schémas de résonance neurale compatibles avec ton architecture."
+        }),
+
+        new NarrationPart("???", new[] { "Où est tout le monde ?" }),
+
+        new NarrationPart("Ivan", new[] {
+            "Partis.",
+            "Environ quatre-vingt-sept ans depuis la dernière transmission humaine dans cette région."
+        }),
+
+        new NarrationPart("???", new[] {
+            "Le ciel est cuivré. Les arbres sont blancs comme des os.",
+            "La terre est fissurée à perte de vue... Qu'est-ce qui s'est passé ici ?"
+        }),
+
+        new NarrationPart("Ivan", new[] {
+            "Les réponses se trouvent dans les piliers.",
+            "Le premier n'est pas loin. Es-tu prêt à voir ?"
+        },
+        "Allons-y, je veux comprendre.",
+        new NarrationPart[] {
+            new NarrationPart("Ivan", new[] { "En route. Prépare-toi... les souvenirs peuvent être déstabilisants." })
+        },
+        "J'ai besoin d'un moment.",
+        new NarrationPart[] {
+            new NarrationPart("Ivan", new[] {
+                "Compris. Mais le temps n'est pas un luxe que nous avons.",
+                "Quand tu seras prêt, le pilier nous attend."
             })
-    };
+        }),
 
-    public static NarrationPart[] MarchandAmbulant = new NarrationPart[]
-    {
-        new NarrationPart("Marchand", new[] { "Approche, approche !", "J'ai des merveilles venues des quatre coins du monde !" }),
-        new NarrationPart("Marchand", new[] { "Potions, amulettes, cartes au trésor...", "Tout ce dont un aventurier a besoin !" }),
-        new NarrationPart("Marchand", new[] { "Reviens me voir quand tu auras quelques pièces." })
-    };
+        new NarrationPart("???", new[] {
+            "Un obélisque noir se dresse devant moi, parcouru de circuits émeraude.",
+            "Quelque chose m'attire vers lui... comme si ces souvenirs m'appartenaient."
+        }),
 
-    public static NarrationPart[] EnfantPerdu = new NarrationPart[]
-    {
-        new NarrationPart("Petit Théo", new[] { "M-Monsieur... Madame...", "*snif*" }),
-        new NarrationPart("Petit Théo", new[] { "J'ai perdu mon chien... Flocon...", "Il est parti vers la forêt..." }),
-        new NarrationPart("Petit Théo",
-            new[] { "Tu pourrais m'aider à le retrouver ? S'il te plaît ?" },
-            "Bien sûr, je vais le chercher.",
-            new NarrationPart[]
-            {
-                new NarrationPart("Petit Théo", new[] { "C'est vrai ?! Merci merci merci !", "Flocon est tout blanc avec une tache noire sur l'oreille !" }),
-                new NarrationPart("Petit Théo", new[] { "Je t'attendrai ici ! Fais attention !" })
-            },
-            "Désolé, je n'ai pas le temps.",
-            new NarrationPart[]
-            {
-                new NarrationPart("Petit Théo", new[] { "Oh...", "*les larmes coulent*" }),
-                new NarrationPart("Petit Théo", new[] { "D-D'accord... Je comprends..." })
-            })
+        new NarrationPart("Ivan", new[] {
+            "Contact détecté. Transfert de résonance neurale en cours.",
+            "Accroche-toi."
+        })
     };
 }

@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\UnityProjects\\ARIAsEchoes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|d:\\unityprojects\\ariasechoes\\assets\\scripts\\narration\\narrationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\narration\\narrationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|d:\\unityprojects\\ariasechoes\\assets\\playerproximityteleporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|solutionrelative:assets\\playerproximityteleporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|d:\\unityprojects\\ariasechoes\\assets\\scripts\\narration\\narration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\narration\\narration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|D:\\UnityProjects\\ARIAsEchoes\\assets\\narrationecho1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|solutionrelative:assets\\narrationecho1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|D:\\UnityProjects\\ARIAsEchoes\\assets\\sinusanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|solutionrelative:assets\\sinusanimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|D:\\UnityProjects\\ARIAsEchoes\\assets\\scripts\\narration\\narrationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\narration\\narrationsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|D:\\UnityProjects\\ARIAsEchoes\\assets\\scripts\\narration\\narrationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\narration\\narrationui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|D:\\UnityProjects\\ARIAsEchoes\\assets\\scripts\\narration\\narrationpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\narration\\narrationpart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|D:\\UnityProjects\\ARIAsEchoes\\assets\\scripts\\drone\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{37424FB5-5E9B-2277-C98F-44FEAE1B3468}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\drone\\drone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +34,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerProximityTeleporter.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\PlayerProximityTeleporter.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerProximityTeleporter.cs",
+              "ToolTip": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\PlayerProximityTeleporter.cs",
+              "RelativeToolTip": "Assets\\PlayerProximityTeleporter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T20:13:03.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NarrationEcho1.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\NarrationEcho1.cs",
+              "RelativeDocumentMoniker": "Assets\\NarrationEcho1.cs",
+              "ToolTip": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\NarrationEcho1.cs",
+              "RelativeToolTip": "Assets\\NarrationEcho1.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAgwBcAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T19:59:17.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SinusAnimator.cs",
+              "DocumentMoniker": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\SinusAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\SinusAnimator.cs",
+              "ToolTip": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\SinusAnimator.cs",
+              "RelativeToolTip": "Assets\\SinusAnimator.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAgwDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T19:51:31.136Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -40,60 +81,34 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Narration\\Narration.cs",
               "ToolTip": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\Scripts\\Narration\\Narration.cs",
               "RelativeToolTip": "Assets\\Scripts\\Narration\\Narration.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCcAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwCoAAAB2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-05T16:11:58.567Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "NarrationSystem.cs",
               "DocumentMoniker": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\Scripts\\Narration\\NarrationSystem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Narration\\NarrationSystem.cs",
               "ToolTip": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\Scripts\\Narration\\NarrationSystem.cs",
               "RelativeToolTip": "Assets\\Scripts\\Narration\\NarrationSystem.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAowIYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T15:08:25.537Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T15:08:25.537Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NarrationPart.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\Scripts\\Narration\\NarrationPart.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Narration\\NarrationPart.cs",
-              "ToolTip": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\Scripts\\Narration\\NarrationPart.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Narration\\NarrationPart.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T15:08:21.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "NarrationUI.cs",
               "DocumentMoniker": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\Scripts\\Narration\\NarrationUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Narration\\NarrationUI.cs",
               "ToolTip": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\Scripts\\Narration\\NarrationUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\Narration\\NarrationUI.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T14:19:12.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Drone.cs",
-              "DocumentMoniker": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\Scripts\\Drone\\Drone.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Drone\\Drone.cs",
-              "ToolTip": "D:\\UnityProjects\\ARIAsEchoes\\Assets\\Scripts\\Drone\\Drone.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Drone\\Drone.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAwDIAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T10:50:01.464Z"
+              "WhenOpened": "2026-02-05T14:19:12.598Z"
             }
           ]
         }
